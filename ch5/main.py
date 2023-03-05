@@ -48,7 +48,7 @@ if __name__ == '__main__':
             train_acc_list.append(train_acc)
             test_acc_list.append(test_acc)
             bd_three_test_list.append(test_bd_three)
-            print(train_acc, test_acc, test_bd_three)
+            print(train_acc, test_acc)
 
     plt.plot(range(len(train_acc_list)), train_acc_list)
     plt.plot(range(len(train_acc_list)), test_acc_list)
